@@ -8,10 +8,9 @@ When analyzing county-level data, it is often useful to consider factors such as
 3. Tennessee Development District;
 4. Rurality, as determined by the Tennessee Department of Economic and Community Development;
 5. USDA Rural-Urban Continuum Codes - 2013 and 2023 vintages;
-6. Census Bureau Rurality as based on rural population for 2010 and 2020 Censuses;
-7. Tennessee Grand Divisions;
-8. Tennessee Department of Transportation (TDOT) District; and 
-9. County number.
+6. Tennessee Grand Divisions;
+7. Tennessee Department of Transportation (TDOT) District; and 
+8. County number.
 
 Most of the data used in this script are housed in comma separated or Excel files.  These files are downloaded as temporary files.  The output file is saved in the users home directory using the _here()_ function.  The output file _tn_county_classification.csv_ was generated on June 30, 2025.   Linked files may not be available or available at the same URL in the future.  The file _tn_grand_divisions_tdot_regions.csv_ is provided if the reader would like to create their own output file. 
 
